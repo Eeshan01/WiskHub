@@ -1,0 +1,111 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+/* Header Styles */
+header {
+    background-color: #111;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    letter-spacing: 1px;
+}
+
+/* Hero Section */
+.hero {
+    background-image: url('https://www.example.com/image.jpg'); 
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+    position: relative;
+}
+
+.hero h2 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    color: #111;
+}
+
+.hero p {
+    font-size: 1.25rem;
+    margin-bottom: 20px;
+    color: #111
+}
+
+/* Booking Form */
+.booking-form {
+    background-color: white;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: -50px;
+    z-index: 1;
+    position: relative;
+}
+
+.booking-form input,
+.booking-form select,
+.booking-form button {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.booking-form button {
+    background-color: #111;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.booking-form button:hover {
+    background-color: #0073e6;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #111;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+footer p {
+    font-size: 0.9rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .hero h2 {
+        font-size: 2.2rem;
+    }
+
+    .hero p {
+        font-size: 1rem;
+    }
+
+    .booking-form {
+        padding: 20px;
+    }
+}
