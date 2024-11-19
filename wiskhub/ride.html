@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Book a Ride - WiskHub</title>
+    <!-- Link to the external CSS file -->
+    <link rel="stylesheet" href="wiskhub.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>WiskHub</h1>
+    </header>
+
+    <!-- Ride Booking Section -->
+    <div class="booking-form">
+        <h2>Book Your Ride</h2>
+        <form action="#" method="POST">
+            <input type="text" name="pickup" placeholder="Pickup Location" required>
+            <input type="text" name="destination" placeholder="Destination" required>
+            <select name="flight_type" required>
+                <option value="standard">Standard Flight</option>
+                <option value="luxury">Luxury Flight</option>
+                <option value="group">Group Flight</option>
+            </select>
+            <input type="datetime-local" name="departure_time" required>
+            <button type="submit">Book Now</button>
+        </form>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 WiskHub. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>

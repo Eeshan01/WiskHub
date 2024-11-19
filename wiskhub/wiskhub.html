@@ -21,22 +21,10 @@
     <div class="hero">
         <h2>Fly Above the City</h2>
         <p>Your air taxi ride is just a click away.</p>
-    </div>
-
-    <!-- Booking Form -->
-    <div class="booking-form">
-        <h2>Book Your Ride</h2>
-        <form action="#" method="POST">
-            <input type="text" name="pickup" placeholder="Pickup Location" required>
-            <input type="text" name="destination" placeholder="Destination" required>
-            <select name="flight_type" required>
-                <option value="standard">Standard Flight</option>
-                <option value="luxury">Luxury Flight</option>
-                <option value="group">Group Flight</option>
-            </select>
-            <input type="datetime-local" name="departure_time" required>
-            <button type="submit">Book Now</button>
-        </form>
+        <div class="hero-buttons">
+            <button onclick="location.href='ride.html'">Book Your Ride</button>
+            <button onclick="location.href='delivery.html'">Book a Delivery</button>
+        </div>
     </div>
 
     <!-- Footer -->
